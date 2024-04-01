@@ -16,7 +16,7 @@ const SignInPage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 height: '100vh',
-                background: '#f0f2f5',
+                background: '#linear-gradient( #a1c4fd, #c2e9fb)',
             }}
         >
             <div
@@ -24,15 +24,16 @@ const SignInPage = () => {
                     width: '800px',
                     height: '440px',
                     borderRadius: '6px',
-                    background: 'white',
+                    background: '#fff',
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
+                    boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.1)',
                 }}
             >
                 <WrapperContainerLeft>
-                    <h2>SignInPageContainer</h2>
-                    <p>Đăng nhập hoặc tài khoản</p>
+                    <h2>ĐĂNG NHẬP</h2>
+                    <p>Đăng nhập hoặc tạo tài khoản</p>
                     <FormComponent
                         style={{
                             marginBottom: '10px',

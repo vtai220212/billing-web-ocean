@@ -16,7 +16,7 @@ const SignUpPage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 height: '100vh',
-                background: '#f0f2f5',
+                background: '#linear-gradient( #a1c4fd, #c2e9fb)',
             }}
         >
             <div
@@ -28,10 +28,11 @@ const SignUpPage = () => {
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
+                    boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.1)',
                 }}
             >
                 <WrapperContainerLeft>
-                    <h2>SignUpPageContainer</h2>
+                    <h2>ĐĂNG KÝ</h2>
                     <p>Tạo tài khoản của bạn</p>
                     <FormComponent
                         style={{
